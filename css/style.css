@@ -1,0 +1,151 @@
+
+
+body {
+    font-family: 'Montserrat';
+}
+
+.nav-link{
+    margin-left: 20px;
+}
+
+.jumbotron-custom {
+    height: 100vh;
+    background-image: url("../image/background.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 40vh;
+}
+
+.scrolled {
+    background-color: black !important;
+}
+
+.jumbotron-custom a {
+    background-color: #9bdeac;
+    border-color: #184d47;
+    color: black;
+    
+}
+
+#home{
+    text-align: center;
+  }
+  
+  #home .container h1{
+    margin:36px;
+  }
+  
+  #home .container .row{
+    margin:-3px;
+  }
+  
+  #home .isi .container.atas{
+    background-color:#f9f8f8;
+    margin-top:-85px;
+    padding-bottom:37px;
+  }
+  
+.fa-map-marker{
+    position: relative;
+    font-size: 42px;
+    color: #27475e;
+}
+
+.fa-rss-square{
+    position: relative;
+    font-size: 42px;
+    color: #27475e;
+}
+
+.fa-globe{
+    position: relative;
+    font-size: 42px;
+    color: #27475e;
+}
+  
+.container.bawah{
+    text-align: center;
+}
+
+.img-circle {
+border-radius: 150px;
+width: 300px;
+}
+
+footer {
+    background-color: rgb(34, 34, 34);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+}
+
+footer h6 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.nav-social {
+    color: white;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+#profil{
+    margin-top: 100px;
+}
+
+.pictprofil{
+    width: 30%;
+    float:left;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.containers, .containers2, .containers3, .containers4, .containers5   {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+.img-profil {
+    /*border-radius: 50px;*/
+    width: 300px;
+    height:300px;
+}
+
+/*.container:hover .img1 {
+  opacity: 0.1;
+}*/
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  height: 180px;
+}
+
+.containers:hover .overlay, .containers2:hover .overlay, .containers3:hover .overlay, .containers4:hover .overlay, .containers5:hover .overlay {
+  opacity: 1;
+}
+
+.keahlian{
+    font-size: 10px;
+}
+
+.dots{
+    list-style: none; 
+    text-align:left;
+    font-size: 14px;
+    margin-left: -40px;
+}

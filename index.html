@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+        #rig{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0;
+        font-size: 0;
+        list-style: none;
+        background-color: none;
+    }
+    #rig li{
+        display: inline-block;
+        *display: inline;
+        width: 25%;
+        vertical-align: middle;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .rig-cell{
+        margin: 12px;
+        border-radius: 5px;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+        padding: 16px;
+        border: none;
+        color: #555;
+        background-color: white;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .rig-cell h3{
+        font-size: 18px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: normal;
+    }
+    
+    .rig-img1{
+        display: block;
+        border: none;
+        width: 100%;
+        height: 0;
+        padding-top: 83.461538%;
+        background-size: cover;
+        background-color: white;
+        background-image: url("nanda.jpeg");
+        background-repeat: no-repeat;
+    }
+    .rig-img2{
+        display: block;
+        border: none;
+        width: 100%;
+        height: 0;
+        padding-top: 83.461538%;
+        background-size: cover;
+        background-color: white;
+        background-image: url("riki.jpeg");
+        background-repeat: no-repeat;
+    }
+    .rig-img3{
+        display: block;
+        border: none;
+        width: 100%;
+        height: 0;
+        padding-top: 83.461538%;
+        background-size: cover;
+        background-color: white;
+        background-image: url("puput.jpeg");
+        background-repeat: no-repeat;
+    }
+    .rig-img4{
+        display: block;
+        border: none;
+        width: 100%;
+        height: 0;
+        padding-top: 83.461538%;
+        background-size: cover;
+        background-color: white;
+        background-image: url("ramadhan.jpeg");
+        background-repeat: no-repeat;
+    }
+    .rig-img5{
+        display: block;
+        border: none;
+        width: 100%;
+        height: 0;
+        padding-top: 83.461538%;
+        background-size: cover;
+        background-color: white;
+        background-image: url("user.jpg");
+        background-repeat: no-repeat;
+    }
+    .rig-img6{
+        display: block;
+        border: none;
+        width: 100%;
+        height: 0;
+        padding-top: 83.461538%;
+        background-size: cover;
+        background-color: white;
+        background-image: url("f.jpg");
+        background-repeat: no-repeat;
+    }
+    .rig-img7{
+        display: block;
+        border: none;
+        width: 100%;
+        height: 0;
+        padding-top: 83.461538%;
+        background-size: cover;
+        background-color: white;
+        background-image: url("g.jpg");
+        background-repeat: no-repeat;
+    }
+    .rig-img8{
+        display: block;
+        border: none;
+        width: 100%;
+        height: 0;
+        padding-top: 83.461538%;
+        background-size: cover;
+        background-color: white;
+        background-image: url("h.jpg");
+        background-repeat: no-repeat;
+    }
+    .rig-overlay{
+        position: absolute;
+        display: block;
+        top: 0;left: 0;bottom: 0;right: 0;
+        margin: auto;
+        background: white;
+        background-size: 50px 50px;
+        opacity: 0;
+        filter: alpha(opacity=0);
+        transition: all 0.3s;
+    }
+    #rig li:hover .rig-overlay{
+        opacity: 0.5;
+    }
+    
+    @media(max-width: 9000px){
+        #rig li{width: 25%;}
+    }
+    @media(max-width: 800px){
+        #rig li{width: 33.33%;}
+    }
+    @media(max-width: 500px){
+        #rig li{width: 50%;}
+    }
+    @media(max-width: 350px){
+        #rig li{width: 100%;}
+    }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DTS TRAVEL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+        <a class="navbar-brand" href="index.html">DTS TRAVEL</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="mx-auto text-left">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <li class="nav-item active">
+                        <a class="nav-link" href="#Travel Inspiration & Resources">Travel Inspiration & Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <li class="nav-item active">
+                        <a class="nav-link" href="#Topics & Articles">Topics & Articles</a>
+                    </li>
+                    <li class="nav-item">
+                        <li class="nav-item active">
+                        <a class="nav-link" href="#Gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <li class="nav-item active">
+                        <a class="nav-link" href="#profil">Profile</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </nav>
+    </nav>
+</div>
+<div class="jumbotron jumbotron-custom m-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 ml-auto">
+                <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Welcome Travel DTS<br></h1><br>
+                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">"Leading the world in travel distribution technology. We connect agents and operators."</p>
+                <a data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" class="btn btn-dark btn-rounded btn-lg px-3" href="#" role="button">Become An Agent</a>
+                <a  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" class="btn btn-secondary btn-rounded btn-lg px-3" href="#" role="button">Become An Operator</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="home">
+    <div class="isi">
+      <div class="container atas">
+        <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Travel Inspiration & Resources</h1>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <h3>Destinations</h3>
+            <p class="text-justify"><strong>Click on</strong>a country in the map below to get travel guides and itineraries, advice about social impact travel and sustainable tourism, stories of local culture and cuisine, inspiration for treks and hikes, and much more in that destination. Or, scroll down for a list of specific Regions and Countries.</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <i class="fa fa-rss-square" aria-hidden="true"></i>
+            <h3>Blog</h3>
+            <p class="text-justify"><strong>How should</strong>I pack for a hike? What should I pack for a multi-day trek? What is too much? And what is too little? How am I going to carry it all? Which hiking gear and essentials should I buy in advance and which can I buy on the ground? That's where this Ultimate Hiking Packing List comes in to answer all of those questions — and much more — to prepare you for your next adventure..</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <i class="fa fa-globe" aria-hidden="true"></i>
+            <h3>Resources</h3>
+            <p class="text-justify"><strong>We are</strong>asked a lot for travel advice, from which companies use for booking hotels and flights to what luggage we use. So, we've put together this resource page with all the companies and gear that we've used and tested over the last 10 years of traveling the world.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container bawah">
+        <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Featured Topics & Articles</h1>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" class="img-circle" src="image/Thai-Street-Food-500x499.jpg" width="200px">
+            <h3>FOODS GUIDES</h3>
+            <p class="text-center"><strong>Food and travel</strong>one of life’s great experience intersections. Although we enjoy our share of refined cuisine and elaborate meals at restaurants.</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700" class="img-circle" src="image/PeaksofBalkans-500x500.jpg" width="200px">
+            <h3>PLANNING & TRAVEL TIPS</h3>
+            <p class="text-center"><strong>In your year-end and new year’s travel reading</strong>it’s likely you’ve encountered more than a few “best of” or “hot” lists.</p>
+          </div><div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900" class="img-circle" src="image/paris.jpg" width="200px">
+            <h3>PERSONAL GROWTH</h3>
+            <p class="text-center"><strong>In your travels</strong>have you ever experienced a moment of a lifetime — an accident of sorts, one never in the plan?</p>
+          </div>
+        </div>
+    </div>
+
+    <div id="gallery">
+    <div class="container">
+      <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Gallery</h1>
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" id="satu">
+            <img class="img-responsive" src="image/img1.jpg" width="300px"></div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" id="satu">
+            <img class="img-responsive" src="image/img2.jpg" width="300px"></div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" id="satu">
+            <img class="img-responsive" src="image/img3.jpg" width="300px"></div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" id="satu">
+            <img class="img-responsive" src="image/img4.jpg" width="300px"></div>
+      </div>
+    </div>
+    </div>
+
+    <br>
+    <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Profile</h1>
+    <ul id="rig">
+        <li>
+            <a class="rig-cell" href="#">
+                <span class="rig-img1"></span>
+                <h3>Nurul Pernanda</h3>
+                <p class="keahlian">Analisis Data, Desain Website Builder, Database, CSS, dan HTML</p>
+                <span class="rig-overlay"></span>
+            </a>
+        </li>
+        <li>
+            <a class="rig-cell" href="#">
+                <span class="rig-img2"></span>
+                <h3>Riki Gultom</h3>
+                <p class="keahlian">HTML, CSS, dan Bootstrap</p>
+                <span class="rig-overlay"></span>
+            </a>
+        </li>
+        <li>
+            <a class="rig-cell" href="#">
+                <span class="rig-img3"></span>
+                <h3>Puput Fajriati Tri S</h3>
+                <p class="keahlian">PHP, Python, MySql, CI dan Javascript</p>
+                <span class="rig-overlay"></span>
+            </a>
+        </li>
+        <li>
+            <a class="rig-cell" href="#">
+                <span class="rig-img4"></span>
+                <h3>Ramadhan Syaifuddin Arief</h3>
+                <p class="keahlian"> HTML, CSS, dan JS </p>
+                <span class="rig-overlay"></span>
+            </a>
+        </li>
+        <li>
+            <a class="rig-cell" href="#">
+                <span class="rig-img5"></span>
+                <h3>Heriansyah</h3>
+                <p class="keahlian"> [Belum Kirim Profil] </p>
+                <span class="rig-overlay"></span>
+            </a>
+        </li>
+    </ul>
+<br>
+<br>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3" style="text-align:left">
+                    <h6>DTS TRAVEL</h6>
+                    <ul class="dots">
+                        <li>Travel Inspiration & Resources</li>
+                        <li>Topics & Articles </li>
+                        <li>Gallery</li>
+                        <li>Profile</li>
+
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6>Supported by:</h6>
+                    <img src="image/DTS.jpg" width="180px">
+                </div>
+                <div class="col-md-3">
+                    <h6>FOLLOWE ME:</h6>
+                    <a class="nav-social" href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a class="nav-social" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="nav-social" href="#"><i class="fab fa-linkedin"></i></a>
+                    <a class="nav-social" href="#"><i class="fab fa-twitter"></i></a>
+                    <br>
+                    <br> 
+                    <h6>EMAIL:</h6>
+                    <p>dtstravel@gmail.com</p>
+                    
+                </div>
+                
+                <div class="col-md-3">
+                    <h6>SUBSCRIBE</h6>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username"
+                            aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-success" type="button" id="button-addon2">GO</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        $(document).scroll(function () {
+            var nav = $("#navbar");
+            nav.toggleClass('scrolled', $(this).scrollTop() > nav.height());
+        });
+    </script> 
+</body>
+</html>
